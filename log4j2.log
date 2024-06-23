@@ -1,3 +1,12 @@
 [INFO ] 2024-06-16 19:18:30.012 [main] CommonFunctions - Execution Started
 [INFO ] 2024-06-16 19:18:37.979 [main] CommonFunctions - Firefox Browser Launched Successfully
+<<<<<<< HEAD
 
+=======
+[INFO ] 2024-06-16 22:45:59.140 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-16 22:46:03.284 [main] CommonFunctions - Firefox Browser Launched Successfully
+>>>>>>> branch 'master' of https://github.com/Shreedharan08/E-Commerce.git
+[INFO ] 2024-06-16 23:22:38.863 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-16 23:22:42.968 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-06-16 23:22:47.055 [main] TC01_Verify_Login - Navigated to URL
+[INFO ] 2024-06-16 23:22:49.245 [main] TC01_Verify_Login - User is clicked on signin link
