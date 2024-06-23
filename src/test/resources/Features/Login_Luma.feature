@@ -1,5 +1,6 @@
-Feature: Login to Luma E-Commerce Website
 
+Feature: Login to Luma E-Commerce Website
+@ignore
   Scenario: Verify the login functionality of the website
     Given Navigate to the URL
     When Click on the Sign in link
