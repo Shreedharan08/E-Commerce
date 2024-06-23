@@ -2,3 +2,97 @@
 [INFO ] 2024-06-16 19:18:37.979 [main] CommonFunctions - Firefox Browser Launched Successfully
 [INFO ] 2024-06-16 22:45:59.140 [main] CommonFunctions - Execution Started
 [INFO ] 2024-06-16 22:46:03.284 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-06-22 21:08:41.338 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-22 21:08:54.135 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-06-22 21:08:58.510 [main] TC01_Verify_Login - Navigated to URL
+[INFO ] 2024-06-22 21:08:59.860 [main] TC01_Verify_Login - User is clicked on signin link
+[INFO ] 2024-06-22 21:18:22.588 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-22 21:18:32.981 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-06-22 21:18:38.653 [main] TC01_Verify_Login - Navigated to URL
+[INFO ] 2024-06-22 21:19:04.461 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-22 21:19:13.175 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-06-22 21:19:16.240 [main] TC01_Verify_Login - Navigated to URL
+[INFO ] 2024-06-22 21:38:24.713 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-22 21:38:33.718 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-06-22 21:38:38.729 [main] TC01_Verify_Login - Navigated to URL
+[INFO ] 2024-06-22 21:38:40.987 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-22 21:38:48.501 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-06-22 21:38:53.001 [main] TC01_Verify_Login - Navigated to URL
+[INFO ] 2024-06-22 21:40:07.897 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-22 21:40:16.148 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-06-22 21:40:20.084 [main] TC01_Verify_Login - Navigated to URL
+[INFO ] 2024-06-22 21:40:22.298 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-22 21:40:29.270 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-06-22 21:40:34.014 [main] TC01_Verify_Login - Navigated to URL
+[INFO ] 2024-06-22 21:42:15.745 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-22 21:42:23.949 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-06-22 21:42:26.205 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-22 21:42:33.061 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-06-23 11:30:03.940 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-23 11:30:09.801 [main] CommonFunctions - Firefox Browser Launched Successfully
+[ERROR] 2024-06-23 11:30:19.882 [main] TC02_Verify_Search_Option - org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@name='q']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d36419cd-7c2b-494a-aa0c-cf0b8760e4b6, findElement {value=//*[@name='q'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:25755, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16676, moz:profile: C:\Users\shree\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:25755/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: d36419cd-7c2b-494a-aa0c-cf0b8760e4b6
+[ERROR] 2024-06-23 11:30:28.298 [main] TC02_Verify_Search_Option - org.openqa.selenium.WebDriverException: TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d36419cd-7c2b-494a-aa0c-cf0b8760e4b6, findElement {value=//*[@name='q'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:25755, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16676, moz:profile: C:\Users\shree\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:25755/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: d36419cd-7c2b-494a-aa0c-cf0b8760e4b6
+[INFO ] 2024-06-23 11:32:12.248 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-23 11:32:16.713 [main] CommonFunctions - Firefox Browser Launched Successfully
+[ERROR] 2024-06-23 11:32:26.760 [main] TC02_Verify_Search_Option - org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@name='q']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1363a88a-0561-4a74-995a-9d505001801b, findElement {value=//*[@name='q'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:20037, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12032, moz:profile: C:\Users\shree\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:20037/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1363a88a-0561-4a74-995a-9d505001801b
+[ERROR] 2024-06-23 11:32:36.791 [main] TC02_Verify_Search_Option - org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@name='q']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1363a88a-0561-4a74-995a-9d505001801b, findElement {value=//*[@name='q'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:20037, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12032, moz:profile: C:\Users\shree\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:20037/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1363a88a-0561-4a74-995a-9d505001801b
+[INFO ] 2024-06-23 11:33:05.686 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-23 11:33:14.333 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-06-23 11:56:16.111 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-23 11:56:24.617 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-06-23 11:57:45.869 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-23 11:57:55.384 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-06-23 12:00:48.991 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-23 12:00:58.473 [main] CommonFunctions - Firefox Browser Launched Successfully
+[ERROR] 2024-06-23 12:01:08.529 [main] TC02_Verify_Search_Option - org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@name='']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [17634640-90b3-4ebc-8ef0-f323c0ae3436, findElement {value=//*[@name=''], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:37148, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14620, moz:profile: C:\Users\shree\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:37148/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 17634640-90b3-4ebc-8ef0-f323c0ae3436
+[ERROR] 2024-06-23 12:01:18.776 [main] TC02_Verify_Search_Option - org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@name='']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [17634640-90b3-4ebc-8ef0-f323c0ae3436, findElement {value=//*[@name=''], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:37148, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14620, moz:profile: C:\Users\shree\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:37148/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 17634640-90b3-4ebc-8ef0-f323c0ae3436
+[INFO ] 2024-06-23 12:38:14.808 [main] CommonFunctions - Execution Started
+[INFO ] 2024-06-23 12:38:22.855 [main] CommonFunctions - Firefox Browser Launched Successfully
+[ERROR] 2024-06-23 12:38:22.940 [main] TC02_Verify_Search_Option - org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [86b4450b-e646-4595-9932-79816b12cca9, findElement {value=//*[@name='q'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:27824, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21264, moz:profile: C:\Users\shree\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:27824/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 86b4450b-e646-4595-9932-79816b12cca9
