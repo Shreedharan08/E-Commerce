@@ -48,5 +48,36 @@
     <artifactId>log4j-core</artifactId>
     <version>2.23.1</version>
   </dependency>
+  <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-cucumber-jvm -->
+<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-cucumber-jvm</artifactId>
+    <version>2.20.1</version>
+</dependency><!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.3.0</version>
+</dependency>
+
+
 </dependencies>
+<build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.3.0</version>
+          <configuration>
+          <includes> 
+          <exculde>
+          Runner.java
+          </exculde>
+          </includes>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
 </project>
