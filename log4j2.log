@@ -120,3 +120,23 @@ Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: tru
 [INFO ] 2024-07-06 20:15:52.745 [main] CommonFunctions - Firefox Browser Launched Successfully
 [INFO ] 2024-07-06 21:15:03.498 [main] CommonFunctions - Execution Started
 [INFO ] 2024-07-06 21:15:21.712 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-07-14 19:44:19.932 [main] CommonFunctions - Execution Started
+[INFO ] 2024-07-14 19:44:37.984 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-07-14 19:44:40.867 [main] CommonFunctions - Execution Started
+[INFO ] 2024-07-14 19:44:56.466 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-07-14 19:46:47.774 [main] CommonFunctions - Execution Started
+[INFO ] 2024-07-14 19:47:01.511 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-07-14 19:47:09.147 [main] CommonFunctions - Execution Started
+[INFO ] 2024-07-14 19:47:25.420 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-07-14 19:52:35.538 [main] CommonFunctions - Execution Started
+[INFO ] 2024-07-14 19:52:53.333 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-07-14 19:53:01.403 [main] CommonFunctions - Execution Started
+[INFO ] 2024-07-14 19:53:13.323 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-07-14 19:55:30.172 [main] CommonFunctions - Execution Started
+[INFO ] 2024-07-14 19:55:52.567 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-07-14 19:56:00.854 [main] CommonFunctions - Execution Started
+[INFO ] 2024-07-14 19:56:15.279 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-07-14 20:05:12.085 [main] CommonFunctions - Execution Started
+[INFO ] 2024-07-14 20:05:28.684 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-07-14 20:05:36.752 [main] CommonFunctions - Execution Started
+[INFO ] 2024-07-14 20:05:51.576 [main] CommonFunctions - Firefox Browser Launched Successfully

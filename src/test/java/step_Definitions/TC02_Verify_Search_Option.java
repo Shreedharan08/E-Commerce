@@ -36,12 +36,6 @@ public class TC02_Verify_Search_Option {
 	}
 	@Then("verify the products")
 	public void verify_the_products() throws Exception {
-		try {
-			HomePage_PageObjects.homedetails().getSearchbar().sendKeys("TEst");
-		} catch (Exception e) {
-			// TODO: handle exception
-			CommonFunctions.takescreenshot();
-		}
 		
 	  
 	}
