@@ -13,6 +13,7 @@ import java.util.logging.LogManager;
 
 import org.apache.commons.io.FileUtils;
 import org.checkerframework.common.value.qual.StaticallyExecutable;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -27,6 +28,7 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import page_Objects.AddtoCart_PageObjects;
 import page_Objects.HomePage_PageObjects;
 import page_Objects.Login_PageObjects;
 
@@ -92,6 +94,7 @@ public class CommonFunctions {
 	public static void pagefactory() {
 		PageFactory.initElements(driver, Login_PageObjects.logindetails());
 		PageFactory.initElements(driver, HomePage_PageObjects.homedetails());
+		PageFactory.initElements(driver, AddtoCart_PageObjects.cartdetails());
 	}
 
 	public static void takescreenshot() {
@@ -102,7 +105,11 @@ public class CommonFunctions {
 			log.error(e);
 		}
 	}
+    public static void scroll() {
+    	JavascriptExecutor js = (JavascriptExecutor) driver;
+    	js.executeScript("window.scrollBy(0, 350);");
 
+    }
 	@After
 	public void teardown() {
 		driver.close();
