@@ -140,3 +140,71 @@ Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: tru
 [INFO ] 2024-07-14 20:05:28.684 [main] CommonFunctions - Firefox Browser Launched Successfully
 [INFO ] 2024-07-14 20:05:36.752 [main] CommonFunctions - Execution Started
 [INFO ] 2024-07-14 20:05:51.576 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 11:27:32.557 [main] CommonFunctions - Execution Started
+[ERROR] 2024-08-11 11:27:40.358 [main] CommonFunctions - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0 
+Host info: host: 'LAPTOP-6VGQKE2B', ip: '192.168.29.117'
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
+[INFO ] 2024-08-11 11:27:40.359 [main] CommonFunctions - Firefox Browser Launched Successfully
+[ERROR] 2024-08-11 11:27:40.446 [main] TC03_AddtoCart - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+[INFO ] 2024-08-11 11:27:40.528 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 11:28:02.442 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 11:30:19.995 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 11:30:33.806 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 11:30:41.771 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 11:30:53.797 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 11:37:55.012 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 11:38:09.441 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 11:38:17.470 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 11:38:30.550 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 12:01:24.698 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 12:01:48.522 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 12:04:46.291 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 12:05:33.326 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 12:06:59.350 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 12:07:14.314 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 12:11:29.757 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 12:11:49.468 [main] CommonFunctions - Firefox Browser Launched Successfully
+[ERROR] 2024-08-11 12:11:51.681 [main] TC03_AddtoCart - org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [58075d1f-7b8b-4dbc-bf41-94505e13612e, findElement {using=xpath, value=//*[@name='q']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:24683, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14320, moz:profile: C:\Users\shree\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:24683/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 58075d1f-7b8b-4dbc-bf41-94505e13612e
+[INFO ] 2024-08-11 12:12:03.199 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 12:12:17.225 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 12:27:36.494 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 12:28:33.496 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 12:55:33.041 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 12:55:51.553 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 18:50:41.986 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 18:50:51.386 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 19:01:05.400 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 19:01:14.429 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 19:16:23.802 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 19:16:32.089 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 19:21:41.498 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 19:21:50.197 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 19:31:35.457 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 19:31:43.359 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 19:32:04.223 [main] TC03_AddtoCart - 1
+[INFO ] 2024-08-11 19:46:19.577 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 19:46:26.898 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 19:46:32.895 [main] TC03_AddtoCart - 
+[INFO ] 2024-08-11 19:48:17.184 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 19:48:24.815 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 19:48:28.185 [main] TC03_AddtoCart - 
+[INFO ] 2024-08-11 19:54:15.124 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 19:54:23.151 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 19:55:57.325 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 19:56:06.435 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 19:56:13.915 [main] TC03_AddtoCart - 
+[INFO ] 2024-08-11 20:03:30.707 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 20:03:38.272 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 20:05:01.123 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 20:05:09.359 [main] CommonFunctions - Firefox Browser Launched Successfully
+[INFO ] 2024-08-11 20:06:51.889 [main] CommonFunctions - Execution Started
+[INFO ] 2024-08-11 20:06:59.188 [main] CommonFunctions - Firefox Browser Launched Successfully

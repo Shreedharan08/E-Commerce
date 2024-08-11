@@ -1,8 +1,15 @@
 package step_Definitions;
 
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import base.CommonFunctions;
 import io.cucumber.java.en.Then;
@@ -36,15 +43,25 @@ public class TC03_AddtoCart {
 	}
 	@Then("Click the Add to Cart button")
 	public void click_the_add_to_cart_button() throws InterruptedException {
+		
+		WebElement element = AddtoCart_PageObjects.cartdetails().getele();
+		CommonFunctions.wait(element);
 		CommonFunctions.scroll();
-		Thread.sleep(5000);
+	    element.click(); 
 	    AddtoCart_PageObjects.cartdetails().getSize().click();
-	   
+	    CommonFunctions.scroll();
+	    AddtoCart_PageObjects.cartdetails().getcolor().click();
+	    AddtoCart_PageObjects.cartdetails().getcart().click();
 	}
+	
 	@Then("Verify the Cart")
 	public void verify_the_cart() {
 	    // Write code here that turns the phrase above into concrete actions
-		System.out.println("Test");
+		WebElement element = AddtoCart_PageObjects.cartdetails().getcount();
+		WebDriverWait wait = new WebDriverWait(CommonFunctions.driver, Duration.ofSeconds(10000));
+		wait.until(ExpectedConditions.visibilityOf(element));
+		String count = element.getText();
+		log.info(count);
 	}
 
 }

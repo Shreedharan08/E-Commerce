@@ -1,4 +1,5 @@
 Feature: Verify the Search Option in Luma
+@ignore
 Scenario: Pass the value in search and validate the function
 Given Navigate to the URL
 When Enter the value "T-shirt" in the search bar

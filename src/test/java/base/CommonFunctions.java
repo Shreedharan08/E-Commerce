@@ -1,12 +1,13 @@
 package base;
 
-import java.io.BufferedReader;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.time.Duration;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.LogManager;
@@ -17,9 +18,14 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 
 import constants.Contants;
@@ -108,7 +114,18 @@ public class CommonFunctions {
     public static void scroll() {
     	JavascriptExecutor js = (JavascriptExecutor) driver;
     	js.executeScript("window.scrollBy(0, 350);");
-
+    }
+    
+    public static WebElement actions(WebElement Element) {
+    	Actions act = new Actions(driver);
+    	act.moveToElement(Element).perform();
+		return Element;
+    }
+    
+    public static WebElement wait(WebElement element) {
+    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10000));
+    	wait.until(ExpectedConditions.textToBePresentInElementValue(element, "1"));
+    	return element;
     }
 	@After
 	public void teardown() {

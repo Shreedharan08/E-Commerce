@@ -27,5 +27,33 @@ public class AddtoCart_PageObjects {
 	@FindBy(xpath = "//*[@option-id='168' and @option-label='M']")
 	private WebElement Size;
 	
+	@FindBy(xpath = "//*[contains(text(),'Erikssen CoolTech™ Fitness Tank')]")
+	private WebElement hoverele;
+	
+	@FindBy(xpath = "//*[@title='Add to Cart']")
+	private WebElement addtocart;
+	
+	@FindBy(xpath = "//*[@option-id='56']")
+	private WebElement color;
+	
+	@FindBy(xpath = "//*[@class='counter-number']")
+	private WebElement count;
+	
+	public WebElement getele() {
+		return hoverele;
+	}
+	
+	public WebElement getcart() {
+		return addtocart;
+	}
+	
+	public WebElement getcolor() {
+		return color;
+	}
+	
+	public WebElement getcount() {
+		return count;
+	}
+	
 
 }
